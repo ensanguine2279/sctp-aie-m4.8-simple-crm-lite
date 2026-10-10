@@ -10,13 +10,13 @@ Docker Compose creates and starts the applicarion and database containers
 
 ### Data Persisted
 
-Newly created data persisted across `docker compose up/down`
+Newly created data persisted across `docker compose down/up`
 
 ![Data persisted](assets/images/data-persist.jpg)
 
 
 ### Sample Data Restored
 
-Removing previous data volumne, trigger sample data to be added on application startup.
+Removing previous data volume, triggers sample data to be added on application startup.
 
 ![Sample data restored](assets/images/sample-data-restored.jpg)
