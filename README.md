@@ -4,14 +4,19 @@ Completed Simple CRM Lite for [Lesson 4.8: Containerizing Simple-CRM-Lite (Satur
 ### Docker Containers
 
 Docker Compose creates and starts the applicarion and database containers
+
 ![Docker containers for Simple CRM Lite App and DB](assets/images/docker-containers.jpg)
+
 
 ### Data Persisted
 
 Newly created data persisted across `docker compose up/down`
+
 ![Data persisted](assets/images/data-persist.jpg)
+
 
 ### Sample Data Restored
 
 Removing previous data volumne, trigger sample data to be added on application startup.
+
 ![Sample data restored](assets/images/sample-data-restored.jpg)
